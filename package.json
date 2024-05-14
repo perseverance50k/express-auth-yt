@@ -1,0 +1,25 @@
+{
+  "name": "express-auth",
+  "version": "1.0.0",
+  "description": "Basic user authentication using the Express.js framework.",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "node src/index.js",
+    "start:dev:watch": "nodemon src/index.js"
+  },
+  "author": "Serhii Chernikov",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "http-status": "^1.7.4",
+    "joi": "^17.13.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.6.1",
+    "nodemon": "^3.1.0"
+  }
+}
